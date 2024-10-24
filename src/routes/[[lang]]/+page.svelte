@@ -50,7 +50,7 @@
 					type="radio"
 					bind:group={langState.lang}
 					value={langV}
-					on:change={handleLanguageChange}
+					onchange={handleLanguageChange}
 				/>
 				{langV}
 			</label>
