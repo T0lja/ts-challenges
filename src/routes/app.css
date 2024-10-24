@@ -1,0 +1,10 @@
+@import url('@unocss/reset/tailwind-compat.css');
+
+@import url('@radix-ui/colors/slate.css');
+@import url('@radix-ui/colors/slate-dark.css');
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    background: var(--slate-1);
+    color: var(--slate-12);
+}

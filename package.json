@@ -1,0 +1,43 @@
+{
+	"name": "ts-challenges",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.3.0",
+		"@sveltejs/kit": "^2.7.2",
+		"@sveltejs/vite-plugin-svelte": "^4.0.0",
+		"@types/bun": "^1.1.12",
+		"@unocss/preset-mini": "^0.63.6",
+		"@unocss/preset-typography": "^0.63.6",
+		"@unocss/preset-uno": "^0.63.6",
+		"@unocss/svelte-scoped": "^0.63.6",
+		"prettier": "^3.3.3",
+		"prettier-plugin-svelte": "^3.2.7",
+		"svelte": "^5.1.0",
+		"svelte-check": "^3.8.6",
+		"typescript": "^5.6.3",
+		"unocss": "^0.63.6",
+		"vite": "^5.4.10"
+	},
+	"type": "module",
+	"dependencies": {
+		"@radix-ui/colors": "^3.0.0",
+		"@unocss/reset": "^0.63.6",
+		"dexie": "^4.0.9",
+		"highlight.js": "^11.10.0",
+		"lucide-svelte": "^0.447.0",
+		"monaco-editor": "0.52.0",
+		"rehype-highlight": "^7.0.1",
+		"rehype-raw": "^7.0.0",
+		"svelte-exmarkdown": "^3.0.5"
+	}
+}
