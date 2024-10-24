@@ -2,6 +2,8 @@ import { browser } from '$app/environment'
 import { bestLang, currentLang } from '$lib/lang.svelte'
 import type { LayoutLoad } from './$types'
 
+export const prerender = false
+
 
 function getBrowserLang() {
 	return localStorage["lang"] ?? navigator.language

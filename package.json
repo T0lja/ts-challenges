@@ -12,7 +12,6 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.3.0",
 		"@sveltejs/kit": "^2.7.2",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
 		"@types/bun": "^1.1.12",
@@ -31,6 +30,7 @@
 	"type": "module",
 	"dependencies": {
 		"@radix-ui/colors": "^3.0.0",
+		"@sveltejs/adapter-static": "^3.0.5",
 		"@unocss/reset": "^0.63.6",
 		"dexie": "^4.0.9",
 		"highlight.js": "^11.10.0",
